@@ -1,3 +1,5 @@
+@use "../../../../variables" as *;
+
 .wrapper {
   display: flex;
 }
@@ -11,12 +13,14 @@
 .customFileInputFirst {
   display: block;
   padding: 8px 12px;
-  background-color: white;
+  background-color: $background-color;
+
   cursor: pointer;
   transition: all 0.2s ease;
   min-height: 36px;
   display: flex;
   align-items: center;
+  border: 1px solid #d0cfcf;
 }
 .customFileInputFirst {
   border: 1px solid #000;
