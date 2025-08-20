@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className={classes.header}>
       <div className={classes.content}>
-        <img src="/Logo.svg" alt="" />
+        <img src="/Logo.svg" alt="Logo" width={104} height={26} />
         <span className={classes.navigation}>
           <Button text={"Users"} onClick={() => handleScrollTo("block_users")} />
           <Button text={"Sign up"} onClick={() => handleScrollTo("block_sign_up")} />
