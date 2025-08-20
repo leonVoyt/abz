@@ -1,0 +1,57 @@
+.wrapper {
+  display: flex;
+}
+
+.fileInputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.customFileInput,
+.customFileInputFirst {
+  display: block;
+  padding: 8px 12px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+}
+.customFileInputFirst {
+  border: 1px solid #000;
+  max-width: 83px;
+  width: 31%;
+  flex: 0 0 31%;
+}
+.customFileInput {
+  flex: 1 1 auto;
+  width: auto;
+}
+.customFileInputFirst .fileInputText {
+  color: #000;
+}
+.fileInputText {
+  color: #999;
+  font-family: Nunito;
+  font-size: 16px;
+}
+
+.fileName {
+  color: #333;
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hiddenFileInput {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.inputError {
+  border: 1px solid #dc3545;
+}

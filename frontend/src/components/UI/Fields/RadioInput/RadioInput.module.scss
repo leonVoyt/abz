@@ -1,0 +1,23 @@
+.radioGroup {
+  margin-top: -7px;
+  margin-bottom: -3px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.radioLabel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Nunito;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.radio {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

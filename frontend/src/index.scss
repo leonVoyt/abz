@@ -1,0 +1,50 @@
+:root {
+  font-family: "Nunito", system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000000de;
+  text-align: center;
+}
+h1 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000000de;
+}
+p {
+  color: #000000de;
+  line-height: 26px;
+  font-size: 16px;
+}
+
+section {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: 140px;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+section h1 {
+  text-align: center;
+}
+
+.error {
+  color: #dc3545;
+  font-size: 14px;
+  font-family: Nunito;
+  position: absolute;
+  top: 115%;
+  left: 0;
+}

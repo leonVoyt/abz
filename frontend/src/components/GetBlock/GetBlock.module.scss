@@ -1,0 +1,41 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0 16px;
+}
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 29px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .users {
+    gap: 16px;
+  }
+  .wrapper {
+    padding: 0 60px;
+  }
+}
+@media (min-width: 768px) {
+  .users {
+    gap: 16px;
+  }
+  .wrapper {
+    padding: 0 32px;
+  }
+}
+@media (min-width: 360px) {
+  .users {
+    gap: 20px;
+  }
+  .wrapper {
+    padding: 0 16px;
+  }
+}

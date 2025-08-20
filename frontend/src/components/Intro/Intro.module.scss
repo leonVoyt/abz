@@ -1,0 +1,35 @@
+.wrapper {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  height: 650px;
+  background: url("/IntroBg.jpg");
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 380px;
+  gap: 21px;
+}
+
+.intro h1,
+.intro p {
+  text-align: center;
+  color: #fff;
+}
+.intro p {
+  margin-bottom: 11px;
+}
+
+@media (min-width: 360px) {
+  .intro {
+    padding: 0 16px;
+  }
+}

@@ -1,0 +1,37 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  text-align: center;
+  background-color: #fff;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 13px 0;
+}
+
+.content {
+  padding: 0 16px;
+
+  max-width: 1024px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  gap: 10px;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    padding: 0 60px;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 0 32px;
+  }
+}
